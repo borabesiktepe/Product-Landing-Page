@@ -1,0 +1,105 @@
+body {
+    background: #171415;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: #171415;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 35vw;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 3px white solid;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+#feautres,
+#newsletter {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#pricing,
+#media {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+@media (max-width: 700px) {
+    nav {
+        width: 100%;
+        text-align: center;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5em;
+    }
+    li {
+        margin: 1.5rem;
+    }
+    #header-img {
+        height: 150px;
+        width: 200px;
+    }
+    #media {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #media > img {
+        width: 420px;
+        height: 420px;
+    }
+}
