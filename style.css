@@ -15,6 +15,11 @@ header {
 nav {
     display: flex;
     align-items: center;
+    width: 100%;
+}
+
+.nav-link {
+    transition: color 50ms ease-out 100ms;
 }
 
 .nav-link:hover {
@@ -47,6 +52,11 @@ button {
     background: transparent;
     cursor: pointer;
     color: white;
+}
+
+button:hover {
+    border-color: #3e8ff1;
+    color: #3e8ff1;
 }
 
 #feautres,
@@ -84,7 +94,6 @@ form {
 @media (max-width: 700px) {
     nav {
         width: 100%;
-        text-align: center;
     }
 
     ul {
