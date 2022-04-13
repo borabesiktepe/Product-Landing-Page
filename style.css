@@ -90,11 +90,11 @@ form {
     ul {
         display: flex;
         flex-direction: column;
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     li {
-        margin: 1.5rem;
+        margin: 1.2rem;
     }
 
     #header-img {
