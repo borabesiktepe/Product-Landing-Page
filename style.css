@@ -17,6 +17,10 @@ nav {
     align-items: center;
 }
 
+.nav-link:hover {
+    color: #3e8ff1;
+}
+
 ul {
     display: flex;
     flex-direction: row;
@@ -82,24 +86,29 @@ form {
         width: 100%;
         text-align: center;
     }
+
     ul {
         display: flex;
         flex-direction: column;
         font-size: 1.5em;
     }
+
     li {
         margin: 1.5rem;
     }
+
     #header-img {
         height: 150px;
         width: 200px;
     }
+
     #media {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    #media > img {
+
+    #media>img {
         width: 420px;
         height: 420px;
     }
