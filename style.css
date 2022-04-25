@@ -135,4 +135,9 @@ header a:hover {
     li {
         margin: 1.2rem;
     }
+
+    #pricing {
+        flex-direction: column;
+        align-items: center;
+    }
 }
